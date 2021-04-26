@@ -59,5 +59,19 @@
     <script src="js/share/saveJPG.js"></script>
     <script src="js/utils/draggable.js"></script>
     <script src="js/main.js"></script>
+
+    <h1>Change Background Color Via Text</h1>
+    <input type="text" id="colorInputText">
+    <input type="color" id="colorInputColor">
+    <input type="button" id="colorButton" value="Click to Change Color" onclick="changeColor()">
+
+    <script>
+      function changeColor(){
+        let color = dovument.getElementById('colorInputColor').value;
+        document.body.style.backgroundColor = color;
+        document.getElementById('colorInputText').value = color;
+      }
+    </script>
+
   </body>
 </html>
