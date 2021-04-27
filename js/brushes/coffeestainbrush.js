@@ -1,3 +1,5 @@
+// coffee stain brush
+
 var t;
 var img;
 
@@ -26,3 +28,4 @@ function draw() {
   t += 1;
 
 }
+
