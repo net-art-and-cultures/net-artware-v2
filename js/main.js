@@ -1,6 +1,9 @@
-/* global createCanvas, resizeCanvas */
+/* global createCanvas, resizeCanvas, loadImage */
+let clown
+
 function preload () {
   window.setupMenuLogic()
+  clown = loadImage('../images/clown.png')
 }
 
 function setup () {
