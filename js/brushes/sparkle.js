@@ -23,7 +23,7 @@ window.brushes.sparkle = {
       strokeWeight(random(1, 10))
       fill(random(0, 360), random(0, 360), random(0, 360), random(0, 50))
       ellipse(random(50, 0), random(0, 50), random(10, 50), random(10, 50))
-      rotate(PI/2)
+      rotate(PI/3)
     }
   }
 }
