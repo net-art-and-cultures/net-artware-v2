@@ -3,7 +3,7 @@ let clown
 
 function preload () {
   window.setupMenuLogic()
-  clown = loadImage('images/clown.png')
+  clown = loadImage('../images/clown.png')
 }
 
 function setup () {
